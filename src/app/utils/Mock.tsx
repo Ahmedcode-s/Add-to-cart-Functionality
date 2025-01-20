@@ -1,5 +1,4 @@
 const Products = [
-
     {
 
         title: "T-shirt with Tape Details",
@@ -13,6 +12,7 @@ const Products = [
         size: ["S", "M", "L", "XL"],
         color: ["red", "blue", "black"],
         qty: 1,
+        discount: 20,
 
     },
     {
@@ -26,7 +26,7 @@ const Products = [
         slug: "skinny-fit-jeans",
         description: "A Hight quality skinny fit jeans",
         size: ["S", "M", "L", "XL"],
-        color: ["jeans", "skyblue", "black"],
+        color: ["brown", "skyblue", "black"],
         qty: 1,
         discount: 20,
 
@@ -44,6 +44,7 @@ const Products = [
         size: ["S", "M", "L", "XL",],
         color: ["red", "green", "blue"],
         qty: 1,
+        discount: 20,
 
 
 

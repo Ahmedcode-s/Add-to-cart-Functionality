@@ -11,7 +11,7 @@ export type IProduct = {
     size: string[]; // Product ke available sizes
     color: string[]; // Product ke available colors
     qty: number; // Available quantity of the product
-    discount?: string; // Discount on product (optional)
+    discount?: number; // Discount on product (optional)
     rating: string;
 };
 
@@ -28,7 +28,7 @@ export type Cart = {
     size: string[]; // Product ke available sizes
     color: string[]; // Product ke available colors
     qty: number; // Available quantity of the product
-    discount?: string; // Discount on product (optional)
+    discount?: number; // Discount on product (optional)
     rating: string;
     uuid:string | number | undefined
 };

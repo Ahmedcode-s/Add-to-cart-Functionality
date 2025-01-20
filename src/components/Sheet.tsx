@@ -37,9 +37,9 @@ export function SheetSide() {
             <ul>
 
               <li className="grid grid-cols-1 gap-y-4">
-                <Link className="ml-3" href={""}>On Sale</Link>
-                <Link className="ml-3" href={""}>New Arrivals</Link>
-                <Link className="ml-3" href={""}>Brands</Link>
+                <Link className="ml-3" href={""}>Home</Link>
+                <Link className="ml-3" href={"/products"}>Products</Link>
+                <Link className="ml-3" href={"/DressStyles"}>Browse Styles</Link>
               </li>
             </ul>
           </SheetContent>
